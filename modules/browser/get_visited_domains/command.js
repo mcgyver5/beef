@@ -3,7 +3,7 @@
 // Browser Exploitation Framework (BeEF) - http://beefproject.com
 // See the file 'doc/COPYING' for copying permission
 //
-
+// needs new urls
 
 var hidden_iframe = beef.dom.createInvisibleIframe();
 hidden_iframe.setAttribute('id','f');
