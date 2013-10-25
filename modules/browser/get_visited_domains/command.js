@@ -3,7 +3,6 @@
 // Browser Exploitation Framework (BeEF) - http://beefproject.com
 // See the file 'doc/COPYING' for copying permission
 //
-// needs new urls
 
 var hidden_iframe = beef.dom.createInvisibleIframe();
 hidden_iframe.setAttribute('id','f');
@@ -53,7 +52,7 @@ if (beef.browser.isFF() == 1) {
 	  { 'name': 'MySpace', 'urls': [ 'http://x.myspacecdn.com/modules/common/static/css/futuraglobal_kqj36l0b.css' ] },
 	  { 'category': 'Content platforms' },
 	  { 'name': 'Youtube', 'urls': [ 'http://s.ytimg.com/yt/cssbin/www-refresh-vflMpNCTQ.css' ] },
-	  { 'name': 'Hulu', 'urls': [ 'http://static.huluim.com/system/hulu_0cd8f497_1.css' ] },
+	  { 'name': 'Hulu', 'urls': [ 'http://static.huluim.com/huluguru/en-us/application-11776c40273d6952c321fa176c76a74a.css' ] },
 	  { 'name': 'Flickr', 'urls': [ 'http://l.yimg.com/g/css/c_fold_main.css.v109886.64777.105425.23' ] },
 	  { 'name': 'JustinBieberMusic.com', 'urls': [ 'http://www.justinbiebermusic.com/underthemistletoe/js/fancybox.js' ] },
 	  { 'name': 'Playboy', 'urls': [ 'http://www.playboy.com/wp-content/themes/pb_blog_r1-0-0/css/styles.css' /* 4h */ ] },
